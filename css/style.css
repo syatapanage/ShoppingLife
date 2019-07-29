@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+  background-color: #ffffe6;
+  font-family: Verdana;
+  overflow-x: hidden;
+}
+
+p {
+	color: #cc0066;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.centre {
+	text-align: center;
+	font-size: 22px;
+	padding-bottom:20px;
+}
+
+#logo {
+	font-size:30px;
+	color: #4CAF50;
+	font-family: Charcoal, sans-serif;
+	font-weight: bold;
+	padding-left: 30px;
+	text-decoration: none;
+}
+
+#toplist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffe6;
+}
+
+.left {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#profilelink {
+  color: black;
+  background-color: #e0ebeb;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 900;
+  border: none;
+}
+
+.right {
+	float: right;
+	padding-top:20px;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right:20px;
+}
+
+.rightsearch {
+	float: right;
+	padding-top:20px;
+	padding-right: 60px;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.register {
+  color: white;
+  background-color: #4CAF50;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+.register:hover {
+  background-color: #d9f2d9;
+  color: black;
+}
+
+.searchbtn {
+  color: black;
+  background-color: #e0ebeb;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 900;
+  border: none;
+}
+
+.searchbtn:hover {
+  background-color: #d9f2d9;
+  color: black;
+}
+
+#largePic {
+  width: 100%;
+  padding-bottom: 10px;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  padding-top: 0px;
+}
+
+.twocolumn {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  padding-top: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #c2c2a3;
+  color: black;
+  font-size: 13px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.header {
+  width: 30%;
+  margin: 20px auto 0px;
+  color: white;
+  background: #cc0066;
+  text-align: center;
+  border: 1px solid #cc0066;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+.formstyle {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #cc0066;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.sellheader {
+  width: 80%;
+  margin: 20px auto 0px;
+  color: white;
+  background: #cc0066;
+  text-align: center;
+  border: 1px solid #cc0066;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+.sellitem {
+  width: 80%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #cc0066;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.addheader {
+  width: 40%;
+  margin: 20px auto 0px;
+  color: white;
+  background: #cc0066;
+  text-align: center;
+  border: 1px solid #cc0066;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+.additem {
+  width: 40%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #b3003b;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #cc0066;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ffe6ee;
+  color: black;
+}
+
+.navbar {
+	background-color: #cc0066;
+	padding:10px;
+	display: block;
+	padding-left: 30px;
+}
+
+.navbar a {
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #ffffe6;
+	font-size: 22px;
+}
+
+.navbar a:hover {
+	background-color: black;
+}
+
+.options {
+  position: relative;
+  display: inline-block;
+}
+
+.navbtn {
+	float: left;
+}
+
+.navbtnlast {
+	float: left;
+	padding-right: 40px;
+}
+
+#category {
+	color: #009933;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+#search-box{
+	border: #a8d4b1 1px solid;
+	border-radius:4px;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.searchbtn {
+	background-color: #bfbfbf;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.searchbtn: hover {
+	background-color: #f2f2f2;
+}
+
+#product-list{
+	float:left;
+	padding: 10px;
+	padding-top:0px;
+	position: absolute;
+}
+
+#product-list li{
+	padding: 10px; 
+	background: #e6e6e6; 
+	border: #bbb9b9 1px solid;
+}
+
+#product-list li:hover{
+	background:#d9c7a5;
+	cursor: pointer;
+}
+
+#logout{
+	color: red;
+}
+
+.alert-danger{
+	color: red;
+	padding-bottom: 20px;
+}
+
+#itemname {
+	padding: 30px;
+	padding-left: 50px;
+	font-size: 23px;
+
+}
+
+#price {
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+#description {
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+#itempic {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+#cartitems {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#cartitems td, #cartitems th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cartitems th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #009933;
+  color: white;
+}
+
+#list {
+	color: white;
+	padding-top: 10px;
+}
+
+.review {
+	padding-top: 10px;
+	color: green;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+
+
+
+
+
+
